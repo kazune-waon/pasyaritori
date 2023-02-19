@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/beige"
+    tools:context=".Layout_main">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="100dp"
+        android:text="ゲーム終了!"
+        android:textColor="#050505"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="280dp"
+        android:layout_height="197dp"
+        android:layout_marginStart="-220dp"
+        android:layout_marginTop="160dp"
+        android:background="#FFFDFD"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-260dp"
+        android:layout_marginTop="190dp"
+        android:text="最後のプレイヤーは、"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-170dp"
+        android:layout_marginTop="290dp"
+        android:text="ざんねん!"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-180dp"
+        android:layout_marginTop="520dp"
+        android:backgroundTint="#EC7E7E"
+        android:text="最初の画面に戻る"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="-220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-240dp"
+        android:layout_marginTop="240dp"
+        android:background="#8CDCE6"
+        android:text="そこの君(╯⊙ ⊱⊙╰ )"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+
+</LinearLayout>

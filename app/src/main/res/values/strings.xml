@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">パシャリとり</string>
+    <string name="action_settings">Settings</string>
+    <string name="image_details_header">Details:</string>
+    <string name="image_preview_header">Preview:</string>
+    <string name="loading_message">ちょっと待ってね</string>
+
+    <string name="dialog_select_prompt">写真撮ってね</string>
+    <string name="dialog_select_camera">カメラ</string>
+    <string name="dialog_select_gallery">フォルダ</string>
+
+    <string name="image_picker_error">Something is wrong with that image. Pick a different one please.</string>
+    <string name="type_explanation">写真をつなげてみんなで新感覚しりとりゲーム！</string>
+    <string name="type_in">スタート</string>
+
+
+</resources>
